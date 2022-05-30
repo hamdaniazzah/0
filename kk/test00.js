@@ -1,0 +1,1 @@
+kfooter.innerHTML = "foot work";
