@@ -1,0 +1,71 @@
+@import url("https://cdn.statically.io/gh/elad2412/the-new-css-reset/main/css/reset.min.css");
+
+html {
+  background: #fff;
+  -webkit-text-size-adjust:100%
+}
+body {
+  background: #fff;
+  color: #000;
+  font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,"Helvetica Neue",Arial,sans-serif;
+  font-size:16px;
+    -webkit-font-smoothing: antialiased;
+  margin: auto;
+  max-width: 720px;
+  padding: 0 8px
+}
+.fs-1,h1{font-size:2em}
+.fs-2,h2{font-size:1.5em}
+.fs-3,h3{font-size:1.17em}
+.fs-4,h4{font-size:1em}
+.fs-5,h5{font-size:0.83em}
+.fs-6,h6{font-size:0.67em}
+h1,h2,h3,h4,h5,h6{
+  display: block;
+  font-weight:400
+}
+p {
+  color: #333;
+  display: block;
+  font-size: 16px;
+  margin: 1em 0
+}
+a {
+  color: #3490dc;
+  outline: 0;
+  text-decoration: none
+}
+a:hover {
+  text-decoration: underline
+}
+b,strong{font-weight:bolder}
+i{font-style:italic}
+img {
+  max-width: 100%;
+  height: auto
+}
+
+.footer {
+  border-top: 1px solid #dee2e6;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center
+}
+.footer p {
+  margin: 0
+}
+.footer p:nth-child(1) {
+  color: #70757a;
+  font-size: small
+}
+.footer p:nth-child(1) a {
+  color: #70757a;
+  text-decoration: underline
+}
+.footer p:nth-child(1) b {
+  font-weight: 400
+}
+.footer a {
+  color: #333
+}
