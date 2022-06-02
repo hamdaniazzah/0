@@ -44,6 +44,8 @@ img {
   max-width: 100%;
   height: auto
 }
+img{pointer-events:none}
+img:not([src]):not([srcset]){visibility:hidden}
 
 .footer {
   border-top: 1px solid #dee2e6;
