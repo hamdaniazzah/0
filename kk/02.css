@@ -6,45 +6,52 @@ html {
 }
 body {
   background: #fff;
-  color: #000;
-  font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,"Helvetica Neue",Arial,sans-serif;
-  font-size:16px;
-    -webkit-font-smoothing: antialiased;
+  color: #333;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,"Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
   margin: auto;
   max-width: 720px;
   padding: 0 8px
 }
-.fs-1,h1{font-size:2em}
-.fs-2,h2{font-size:1.5em}
-.fs-3,h3{font-size:1.17em}
-.fs-4,h4{font-size:1em}
-.fs-5,h5{font-size:0.83em}
-.fs-6,h6{font-size:0.67em}
-h1,h2,h3,h4,h5,h6{
+
+h1,h2,h3,h4,h5,h6 {
   display: block;
   font-weight:400
 }
+h1{margin:0.67rem 0}
+h2{margin:0.83rem 0}
+h3{margin:1rem 0}
+h4{margin:1.33rem 0}
+h5{margin:1.67rem 0}
+h6{margin:2.33rem 0}
+.fs-1,h1{font-size:2rem}
+.fs-2,h2{font-size:1.5rem}
+.fs-3,h3{font-size:1.17rem}
+.fs-4,h4{font-size:1rem}
+.fs-5,h5{font-size:0.83rem}
+.fs-6,h6{font-size:0.67rem}
+
 p {
   color: #333;
   display: block;
   font-size: 16px;
-  margin: 1em 0
+  margin: 1rem 0
 }
+
 a {
-  color: #3490dc;
+  color: #1a73e8;
   outline: 0;
-  text-decoration: none
+  text-decoration: none;
+  word-break: break-word
 }
-a:hover {
-  text-decoration: underline
-}
+a:hover{text-decoration:none}
+a:focus{text-decoration:underline}
+
 b,strong{font-weight:bolder}
 i{font-style:italic}
-img {
-  max-width: 100%;
-  height: auto
-}
-img{pointer-events:none}
+
+img{max-width:100%;height:auto;pointer-events:none}
 img:not([src]):not([srcset]){visibility:hidden}
 
 .footer {
