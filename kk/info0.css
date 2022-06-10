@@ -1,0 +1,41 @@
+/* TOP INFO STATUS 1 */
+.top-info > p > #s1::after {
+  content: "status transaksi: ";
+}
+.top-info > p > #s1 + b::after {
+  content: "offline";
+  font-weight: 700;
+  color: #db4437;
+}
+/* TOP INFO STATUS 2 */
+.top-info > p > #s2::after {
+  content: "status layanan: ";
+}
+.top-info > p > #s2 + b::after {
+  content: "coming soon";
+  font-weight: 700;
+  color: #1da1f2;
+}
+/* TOP INFO NOTE */
+.top-info > p > #note::after {
+  content: "note: ";
+}
+.top-info > p > #note + b::after {
+  content: "web sedang maintenance :)";
+  font-weight: 700;
+  color: #333;
+}
+/* TOP INFO PLUS */
+.top-info > p > #plus::after {
+  content: "";
+}
+.top-info > p > #plus + b::after {
+  content: "";
+  font-weight: 700;
+  color: #333;
+}
+
+/* FOOT MAIL */
+a[data-id="email"]>b::after{
+  content: "business@kocek.co"
+}
