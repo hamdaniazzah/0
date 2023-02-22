@@ -37,5 +37,5 @@
 
 /* FOOT MAIL */
 a[data-id="email"]>b::after{
-  content: "business@kocek.co"
+  content: "kemail@kocek.co"
 }
