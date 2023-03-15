@@ -11,5 +11,6 @@ function minJS(js) {
   js = js.replace(/\/\*[\s\S]*?\*\/|\/\/.*?$/gm, '');
   js = js.replace(/\s+/g, ' ');
   js = js.replace(/\s*([\=\+\-\*\/\%\&\|\^\!\~\?\<\>\,\;\:\{\}\(\)\[\]])\s*/g, '$1');
+  js = js.replace(/(?<=\${[^}]+}) /g, '');
   return js;
 }
